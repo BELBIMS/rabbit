@@ -9,7 +9,7 @@
     }
     private static void Main(string[] args)
     {
-        Thread turtle = new(MyThreadTurtle);
+        Thread turtle = new(MyThreadTurtle);   В методе MyThreadTurtle определена функция, которая будет выполняться в отдельном потоке. В данном случае функция просто выводит на консоль сообщение о текущем шаге черепахи.
         turtle.Start();
 
         for (int i = 0; i < 100; i++)
