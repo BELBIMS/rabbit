@@ -4,7 +4,7 @@
     {
         for (int i = 0; i < 100; i++)
         {
-            Console.WriteLine("Черепаха прошла: " + i);
+            Console.WriteLine("Черепаха прошла: " + i);    // Выводит сообщение о текущем шаге черепахи
         }
     }
     private static void Main(string[] args)
@@ -14,7 +14,7 @@
 
         for (int i = 0; i < 100; i++)
         {
-            Console.WriteLine("Кролик прошел: " + i);
+            Console.WriteLine("Кролик прошел: " + i);      // Выводит сообщение о текущем шаге кролика 
         }
     }
 }
